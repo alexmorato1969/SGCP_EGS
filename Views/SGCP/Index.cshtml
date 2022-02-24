@@ -1,0 +1,28 @@
+﻿
+@{
+    ViewBag.Title = "SGCP";
+}
+
+<h2>SGCP - Sistema de Gestão e Controle de Propostas</h2>
+<br/>
+
+    <div class="dropdown">
+        <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-expanded="false">
+            <span class="caret"></span>
+            Menu SGCP
+        </button>
+
+        <ul class="dropdown-menu">
+            <li class="dropdown-header">Cadastros</li>
+            <li>@Html.ActionLink("Operadoras", "Contact", "Home")</li>
+            <li>@Html.ActionLink("Parceiros", "About", "Home")</li>
+            <li>@Html.ActionLink("Clientes", "About", "Home")</li>
+            <li class="divider"></li>
+            <li class="dropdown-header">Propostas</li>
+            <li>@Html.ActionLink("Incluir", "About", "Home")</li>
+            <li>@Html.ActionLink("Consultar", "About", "Home")</li>
+            <li class="divider"></li>
+            <li>@Html.ActionLink("Consultas", "About", "Home")</li>
+        </ul>
+
+    </div>
